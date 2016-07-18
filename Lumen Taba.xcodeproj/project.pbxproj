@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C10FB461D2D6DFE00403A6D /* UrlValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10FB451D2D6DFE00403A6D /* UrlValidator.swift */; };
+		4C10FB481D2DBDC900403A6D /* BrowsersTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10FB471D2DBDC900403A6D /* BrowsersTracker.swift */; };
+		4C10FB4C1D2DBE6C00403A6D /* url.script in Resources */ = {isa = PBXBuildFile; fileRef = 4C10FB4B1D2DBE6C00403A6D /* url.script */; };
+		4C10FB4F1D2DC19A00403A6D /* LumServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10FB4E1D2DC19A00403A6D /* LumServer.swift */; };
+		4C10FB521D2DC26100403A6D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10FB511D2DC26100403A6D /* UIColorExtension.swift */; };
+		4C7157C11D2FA9CD00741A08 /* domains.list in Resources */ = {isa = PBXBuildFile; fileRef = 4C7157C01D2FA9CD00741A08 /* domains.list */; };
+		4CB002B61D3038A1004F18DA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB002B51D3038A1004F18DA /* SettingsViewController.swift */; };
+		4CFC8F2A1D2C336800FE02D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC8F291D2C336800FE02D3 /* AppDelegate.swift */; };
+		4CFC8F2C1D2C336800FE02D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC8F2B1D2C336800FE02D3 /* ViewController.swift */; };
+		4CFC8F2E1D2C336800FE02D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC8F2D1D2C336800FE02D3 /* Assets.xcassets */; };
+		4CFC8F311D2C336800FE02D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC8F2F1D2C336800FE02D3 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CA910E01D2C347F00CD2C0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C10FB451D2D6DFE00403A6D /* UrlValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlValidator.swift; sourceTree = "<group>"; };
+		4C10FB471D2DBDC900403A6D /* BrowsersTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowsersTracker.swift; sourceTree = "<group>"; };
+		4C10FB4B1D2DBE6C00403A6D /* url.script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = url.script; sourceTree = "<group>"; };
+		4C10FB4E1D2DC19A00403A6D /* LumServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LumServer.swift; sourceTree = "<group>"; };
+		4C10FB511D2DC26100403A6D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4C7157C01D2FA9CD00741A08 /* domains.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = domains.list; sourceTree = "<group>"; };
+		4CA910CC1D2C347F00CD2C0A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4CB002B51D3038A1004F18DA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4CFC8F261D2C336800FE02D3 /* Lumen Taba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lumen Taba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFC8F291D2C336800FE02D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CFC8F2B1D2C336800FE02D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CFC8F2D1D2C336800FE02D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CFC8F301D2C336800FE02D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CFC8F321D2C336800FE02D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CFC8F231D2C336800FE02D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA910CB1D2C347F00CD2C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CA910CC1D2C347F00CD2C0A /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CFC8F1D1D2C336800FE02D3 = {
+			isa = PBXGroup;
+			children = (
+				4CFC8F281D2C336800FE02D3 /* Lumen Taba */,
+				4CA910CB1D2C347F00CD2C0A /* Frameworks */,
+				4CFC8F271D2C336800FE02D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CFC8F271D2C336800FE02D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFC8F261D2C336800FE02D3 /* Lumen Taba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFC8F281D2C336800FE02D3 /* Lumen Taba */ = {
+			isa = PBXGroup;
+			children = (
+				4C7157C01D2FA9CD00741A08 /* domains.list */,
+				4C10FB4B1D2DBE6C00403A6D /* url.script */,
+				4CFC8F291D2C336800FE02D3 /* AppDelegate.swift */,
+				4CFC8F2B1D2C336800FE02D3 /* ViewController.swift */,
+				4CFC8F2D1D2C336800FE02D3 /* Assets.xcassets */,
+				4CFC8F2F1D2C336800FE02D3 /* Main.storyboard */,
+				4CFC8F321D2C336800FE02D3 /* Info.plist */,
+				4C10FB451D2D6DFE00403A6D /* UrlValidator.swift */,
+				4C10FB471D2DBDC900403A6D /* BrowsersTracker.swift */,
+				4C10FB4E1D2DC19A00403A6D /* LumServer.swift */,
+				4C10FB511D2DC26100403A6D /* UIColorExtension.swift */,
+				4CB002B51D3038A1004F18DA /* SettingsViewController.swift */,
+			);
+			path = "Lumen Taba";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CFC8F251D2C336800FE02D3 /* Lumen Taba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFC8F351D2C336800FE02D3 /* Build configuration list for PBXNativeTarget "Lumen Taba" */;
+			buildPhases = (
+				4CFC8F221D2C336800FE02D3 /* Sources */,
+				4CFC8F231D2C336800FE02D3 /* Frameworks */,
+				4CFC8F241D2C336800FE02D3 /* Resources */,
+				4CA910E01D2C347F00CD2C0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lumen Taba";
+			productName = "Lumen Taba";
+			productReference = 4CFC8F261D2C336800FE02D3 /* Lumen Taba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CFC8F1E1D2C336800FE02D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vladislav Orlov";
+				TargetAttributes = {
+					4CFC8F251D2C336800FE02D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CFC8F211D2C336800FE02D3 /* Build configuration list for PBXProject "Lumen Taba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CFC8F1D1D2C336800FE02D3;
+			productRefGroup = 4CFC8F271D2C336800FE02D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CFC8F251D2C336800FE02D3 /* Lumen Taba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CFC8F241D2C336800FE02D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C10FB4C1D2DBE6C00403A6D /* url.script in Resources */,
+				4CFC8F2E1D2C336800FE02D3 /* Assets.xcassets in Resources */,
+				4C7157C11D2FA9CD00741A08 /* domains.list in Resources */,
+				4CFC8F311D2C336800FE02D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFC8F221D2C336800FE02D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C10FB4F1D2DC19A00403A6D /* LumServer.swift in Sources */,
+				4C10FB461D2D6DFE00403A6D /* UrlValidator.swift in Sources */,
+				4CB002B61D3038A1004F18DA /* SettingsViewController.swift in Sources */,
+				4CFC8F2C1D2C336800FE02D3 /* ViewController.swift in Sources */,
+				4CFC8F2A1D2C336800FE02D3 /* AppDelegate.swift in Sources */,
+				4C10FB481D2DBDC900403A6D /* BrowsersTracker.swift in Sources */,
+				4C10FB521D2DC26100403A6D /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CFC8F2F1D2C336800FE02D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CFC8F301D2C336800FE02D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CFC8F331D2C336800FE02D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CFC8F341D2C336800FE02D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CFC8F361D2C336800FE02D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Lumen Taba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vorlov.Lumen-Taba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CFC8F371D2C336800FE02D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Lumen Taba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vorlov.Lumen-Taba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CFC8F211D2C336800FE02D3 /* Build configuration list for PBXProject "Lumen Taba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFC8F331D2C336800FE02D3 /* Debug */,
+				4CFC8F341D2C336800FE02D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFC8F351D2C336800FE02D3 /* Build configuration list for PBXNativeTarget "Lumen Taba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFC8F361D2C336800FE02D3 /* Debug */,
+				4CFC8F371D2C336800FE02D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CFC8F1E1D2C336800FE02D3 /* Project object */;
+}
